@@ -601,11 +601,7 @@ footer .logo {
   margin-bottom: 0px;
 }
 
-.filters-list:not(:first-child) {
-  margin-right: 30px;
-}
-
-.filters-list:first-child {
+.filters-list {
   margin-right: 8px;
 }
 
@@ -701,6 +697,8 @@ a.portfolio-item {
   width: 370px;
   height: 404px;
   border: 1px solid #eeeeee;
+  text-decoration: none;
+  color: inherit;
 }
 
 .portfolio-item:hover {
